@@ -5,8 +5,8 @@ name: "Integrate"
 on:
   pull_request: null
   push:
-    branches:
-      - "master"
+    branches: null
+      # - "master"
 
 jobs:
   build:
